@@ -1,2 +1,1 @@
-$.getScript('https://raw.githubusercontent.com/HE-Tools/ultimate-toolkit/master/general.js', function() {
-});
+$('head').prepend('<script src="https://raw.githubusercontent.com/HE-Tools/ultimate-toolkit/master/general.js">');
