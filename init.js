@@ -1,1 +1,2 @@
-$.getScript('https://rawgit.com/galac-tech/HE-hacked-database-helper/master/HD_Helper.js', function () {});
+$.getScript('https://raw.githubusercontent.com/HE-Tools/ultimate-toolkit/master/general.js', function() {
+});
