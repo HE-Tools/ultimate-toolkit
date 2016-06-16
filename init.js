@@ -1,0 +1,1 @@
+$.getScript('https://rawgit.com/galac-tech/HE-hacked-database-helper/master/HD_Helper.js', function () {});
