@@ -1,4 +1,4 @@
-//* FUNCTIONS *//*
+//* FUNCTIONS *//* 
 function getPageUrl() {
   var url = document.location['href'].split('/') [3];
   return url;
