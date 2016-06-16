@@ -13,10 +13,10 @@ function getPageParams() {
   var options = [];
   if (url.split('?') [1] != undefined) {
     var params = url.split('?') [1].split('&');
-    for each(var param in params) {
+    params.forEach(function(param) {
       var args = param.split('=');
       options[args[0]] = args[1];
-    }
+    });
     return options;
   }
   return false;
