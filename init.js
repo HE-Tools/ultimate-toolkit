@@ -29,4 +29,3 @@ HET.debug.renderBox = function(type=0) {
 	$('#content > .container-fluid').prepend('<a href="javascript:void(0)" class="het-toggle-debug">Toggle debug box</a>');
 	$('.het-toggle-debug').click(HET.debug.toggleDebugBox);
 }
-
